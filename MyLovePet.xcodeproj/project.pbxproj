@@ -15,6 +15,17 @@
 		E1E26CEC20AE7B6500BA82D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E26CEB20AE7B6500BA82D2 /* main.m */; };
 		E1E26CF620AE7B6500BA82D2 /* MyLovePetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E26CF520AE7B6500BA82D2 /* MyLovePetTests.m */; };
 		E1E26D0120AE7B6500BA82D2 /* MyLovePetUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E26D0020AE7B6500BA82D2 /* MyLovePetUITests.m */; };
+		E1E26D2120AE9B6500BA82D2 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E26D2020AE9B6500BA82D2 /* BaseViewController.m */; };
+		E1E26D2420AE9BAE00BA82D2 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E26D2320AE9BAE00BA82D2 /* HomeViewController.m */; };
+		E1E26D2720AE9BCE00BA82D2 /* ShoppingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E26D2620AE9BCE00BA82D2 /* ShoppingViewController.m */; };
+		E1E26D2A20AE9BDE00BA82D2 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E26D2920AE9BDE00BA82D2 /* MessageViewController.m */; };
+		E1E26D2D20AE9C0700BA82D2 /* PersonalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E26D2C20AE9C0700BA82D2 /* PersonalViewController.m */; };
+		E1E26D3220AE9FF400BA82D2 /* PetTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E26D3120AE9FF400BA82D2 /* PetTabBarViewController.m */; };
+		E1E26D3520AEA6A500BA82D2 /* PetTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E26D3420AEA6A500BA82D2 /* PetTabBar.m */; };
+		E1E26D3820AEAFBB00BA82D2 /* PetTabBarBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E26D3720AEAFBB00BA82D2 /* PetTabBarBtn.m */; };
+		E1E26D3C20AEB0A200BA82D2 /* UIColor+CustormColor.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E26D3B20AEB0A200BA82D2 /* UIColor+CustormColor.m */; };
+		E1E26D4020AEB31D00BA82D2 /* PublicUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E26D3F20AEB31D00BA82D2 /* PublicUtils.m */; };
+		E1E26D4320AEB4D000BA82D2 /* UIView+convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E26D4220AEB4D000BA82D2 /* UIView+convenience.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +62,29 @@
 		E1E26CFC20AE7B6500BA82D2 /* MyLovePetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyLovePetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1E26D0020AE7B6500BA82D2 /* MyLovePetUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyLovePetUITests.m; sourceTree = "<group>"; };
 		E1E26D0220AE7B6500BA82D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1E26D1F20AE9B6500BA82D2 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		E1E26D2020AE9B6500BA82D2 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		E1E26D2220AE9BAE00BA82D2 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		E1E26D2320AE9BAE00BA82D2 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		E1E26D2520AE9BCE00BA82D2 /* ShoppingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShoppingViewController.h; sourceTree = "<group>"; };
+		E1E26D2620AE9BCE00BA82D2 /* ShoppingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShoppingViewController.m; sourceTree = "<group>"; };
+		E1E26D2820AE9BDE00BA82D2 /* MessageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		E1E26D2920AE9BDE00BA82D2 /* MessageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		E1E26D2B20AE9C0700BA82D2 /* PersonalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonalViewController.h; sourceTree = "<group>"; };
+		E1E26D2C20AE9C0700BA82D2 /* PersonalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonalViewController.m; sourceTree = "<group>"; };
+		E1E26D3020AE9FF400BA82D2 /* PetTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PetTabBarViewController.h; sourceTree = "<group>"; };
+		E1E26D3120AE9FF400BA82D2 /* PetTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PetTabBarViewController.m; sourceTree = "<group>"; };
+		E1E26D3320AEA6A500BA82D2 /* PetTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PetTabBar.h; sourceTree = "<group>"; };
+		E1E26D3420AEA6A500BA82D2 /* PetTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PetTabBar.m; sourceTree = "<group>"; };
+		E1E26D3620AEAFBB00BA82D2 /* PetTabBarBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PetTabBarBtn.h; sourceTree = "<group>"; };
+		E1E26D3720AEAFBB00BA82D2 /* PetTabBarBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PetTabBarBtn.m; sourceTree = "<group>"; };
+		E1E26D3A20AEB0A200BA82D2 /* UIColor+CustormColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CustormColor.h"; sourceTree = "<group>"; };
+		E1E26D3B20AEB0A200BA82D2 /* UIColor+CustormColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CustormColor.m"; sourceTree = "<group>"; };
+		E1E26D3D20AEB26E00BA82D2 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		E1E26D3E20AEB31D00BA82D2 /* PublicUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublicUtils.h; sourceTree = "<group>"; };
+		E1E26D3F20AEB31D00BA82D2 /* PublicUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PublicUtils.m; sourceTree = "<group>"; };
+		E1E26D4120AEB4D000BA82D2 /* UIView+convenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+convenience.h"; sourceTree = "<group>"; };
+		E1E26D4220AEB4D000BA82D2 /* UIView+convenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+convenience.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,11 +139,17 @@
 				E1E26CDD20AE7B6200BA82D2 /* AppDelegate.m */,
 				E1E26CDF20AE7B6200BA82D2 /* ViewController.h */,
 				E1E26CE020AE7B6200BA82D2 /* ViewController.m */,
+				E1E26D1E20AE9B3B00BA82D2 /* Public */,
+				E1E26D0E20AE99FC00BA82D2 /* Home */,
+				E1E26D0F20AE9A1600BA82D2 /* ShoppingMall */,
+				E1E26D1020AE9A7200BA82D2 /* Message */,
+				E1E26D1120AE9A8600BA82D2 /* Personal */,
 				E1E26CE220AE7B6200BA82D2 /* Main.storyboard */,
 				E1E26CE520AE7B6500BA82D2 /* Assets.xcassets */,
 				E1E26CE720AE7B6500BA82D2 /* LaunchScreen.storyboard */,
 				E1E26CEA20AE7B6500BA82D2 /* Info.plist */,
 				E1E26CEB20AE7B6500BA82D2 /* main.m */,
+				E1E26D3D20AEB26E00BA82D2 /* PrefixHeader.pch */,
 			);
 			path = MyLovePet;
 			sourceTree = "<group>";
@@ -130,6 +170,183 @@
 				E1E26D0220AE7B6500BA82D2 /* Info.plist */,
 			);
 			path = MyLovePetUITests;
+			sourceTree = "<group>";
+		};
+		E1E26D0E20AE99FC00BA82D2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E1E26D1420AE9AE300BA82D2 /* views */,
+				E1E26D1320AE9ACD00BA82D2 /* models */,
+				E1E26D1220AE9AAB00BA82D2 /* viewControllers */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E1E26D0F20AE9A1600BA82D2 /* ShoppingMall */ = {
+			isa = PBXGroup;
+			children = (
+				E1E26D1D20AE9B1100BA82D2 /* models */,
+				E1E26D1C20AE9B1100BA82D2 /* viewControllers */,
+				E1E26D1B20AE9B1100BA82D2 /* views */,
+			);
+			path = ShoppingMall;
+			sourceTree = "<group>";
+		};
+		E1E26D1020AE9A7200BA82D2 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				E1E26D1A20AE9B0C00BA82D2 /* models */,
+				E1E26D1920AE9B0C00BA82D2 /* viewControllers */,
+				E1E26D1820AE9B0C00BA82D2 /* views */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		E1E26D1120AE9A8600BA82D2 /* Personal */ = {
+			isa = PBXGroup;
+			children = (
+				E1E26D1720AE9B0500BA82D2 /* models */,
+				E1E26D1620AE9B0500BA82D2 /* viewControllers */,
+				E1E26D1520AE9B0500BA82D2 /* views */,
+			);
+			path = Personal;
+			sourceTree = "<group>";
+		};
+		E1E26D1220AE9AAB00BA82D2 /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E1E26D2220AE9BAE00BA82D2 /* HomeViewController.h */,
+				E1E26D2320AE9BAE00BA82D2 /* HomeViewController.m */,
+			);
+			path = viewControllers;
+			sourceTree = "<group>";
+		};
+		E1E26D1320AE9ACD00BA82D2 /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		E1E26D1420AE9AE300BA82D2 /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		E1E26D1520AE9B0500BA82D2 /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		E1E26D1620AE9B0500BA82D2 /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E1E26D2B20AE9C0700BA82D2 /* PersonalViewController.h */,
+				E1E26D2C20AE9C0700BA82D2 /* PersonalViewController.m */,
+			);
+			path = viewControllers;
+			sourceTree = "<group>";
+		};
+		E1E26D1720AE9B0500BA82D2 /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		E1E26D1820AE9B0C00BA82D2 /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		E1E26D1920AE9B0C00BA82D2 /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E1E26D2820AE9BDE00BA82D2 /* MessageViewController.h */,
+				E1E26D2920AE9BDE00BA82D2 /* MessageViewController.m */,
+			);
+			path = viewControllers;
+			sourceTree = "<group>";
+		};
+		E1E26D1A20AE9B0C00BA82D2 /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		E1E26D1B20AE9B1100BA82D2 /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		E1E26D1C20AE9B1100BA82D2 /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E1E26D2520AE9BCE00BA82D2 /* ShoppingViewController.h */,
+				E1E26D2620AE9BCE00BA82D2 /* ShoppingViewController.m */,
+			);
+			path = viewControllers;
+			sourceTree = "<group>";
+		};
+		E1E26D1D20AE9B1100BA82D2 /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		E1E26D1E20AE9B3B00BA82D2 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				E1E26D1F20AE9B6500BA82D2 /* BaseViewController.h */,
+				E1E26D2020AE9B6500BA82D2 /* BaseViewController.m */,
+				E1E26D3920AEB07A00BA82D2 /* utils */,
+				E1E26D2F20AE9CFD00BA82D2 /* tabbar */,
+				E1E26D2E20AE9CDB00BA82D2 /* navigation */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		E1E26D2E20AE9CDB00BA82D2 /* navigation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = navigation;
+			sourceTree = "<group>";
+		};
+		E1E26D2F20AE9CFD00BA82D2 /* tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				E1E26D3020AE9FF400BA82D2 /* PetTabBarViewController.h */,
+				E1E26D3120AE9FF400BA82D2 /* PetTabBarViewController.m */,
+				E1E26D3320AEA6A500BA82D2 /* PetTabBar.h */,
+				E1E26D3420AEA6A500BA82D2 /* PetTabBar.m */,
+				E1E26D3620AEAFBB00BA82D2 /* PetTabBarBtn.h */,
+				E1E26D3720AEAFBB00BA82D2 /* PetTabBarBtn.m */,
+			);
+			path = tabbar;
+			sourceTree = "<group>";
+		};
+		E1E26D3920AEB07A00BA82D2 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				E1E26D4120AEB4D000BA82D2 /* UIView+convenience.h */,
+				E1E26D4220AEB4D000BA82D2 /* UIView+convenience.m */,
+				E1E26D3A20AEB0A200BA82D2 /* UIColor+CustormColor.h */,
+				E1E26D3B20AEB0A200BA82D2 /* UIColor+CustormColor.m */,
+				E1E26D3E20AEB31D00BA82D2 /* PublicUtils.h */,
+				E1E26D3F20AEB31D00BA82D2 /* PublicUtils.m */,
+			);
+			path = utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,8 +480,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1E26CE120AE7B6200BA82D2 /* ViewController.m in Sources */,
+				E1E26D4020AEB31D00BA82D2 /* PublicUtils.m in Sources */,
+				E1E26D3C20AEB0A200BA82D2 /* UIColor+CustormColor.m in Sources */,
+				E1E26D3820AEAFBB00BA82D2 /* PetTabBarBtn.m in Sources */,
+				E1E26D3220AE9FF400BA82D2 /* PetTabBarViewController.m in Sources */,
+				E1E26D2120AE9B6500BA82D2 /* BaseViewController.m in Sources */,
 				E1E26CEC20AE7B6500BA82D2 /* main.m in Sources */,
+				E1E26D2420AE9BAE00BA82D2 /* HomeViewController.m in Sources */,
+				E1E26D2720AE9BCE00BA82D2 /* ShoppingViewController.m in Sources */,
 				E1E26CDE20AE7B6200BA82D2 /* AppDelegate.m in Sources */,
+				E1E26D2D20AE9C0700BA82D2 /* PersonalViewController.m in Sources */,
+				E1E26D2A20AE9BDE00BA82D2 /* MessageViewController.m in Sources */,
+				E1E26D4320AEB4D000BA82D2 /* UIView+convenience.m in Sources */,
+				E1E26D3520AEA6A500BA82D2 /* PetTabBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +663,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A79SL95CX8;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MyLovePet/PrefixHeader.pch";
 				INFOPLIST_FILE = MyLovePet/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -453,6 +682,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A79SL95CX8;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MyLovePet/PrefixHeader.pch";
 				INFOPLIST_FILE = MyLovePet/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (

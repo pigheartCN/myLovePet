@@ -1,0 +1,32 @@
+//
+//  PrefixHeader.pch
+//  MyLovePet
+//
+//  Created by zhuxin on 2018/5/18.
+//  Copyright © 2018年 zhuxin. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "PublicUtils.h"
+#import "UIView+convenience.h"
+#import "UIColor+CustormColor.h"
+
+#define SCREEN_WIDTH ([UIScreen mainScreen].bounds.size.width)
+#define SCREEN_HEIGHT ([UIScreen mainScreen].bounds.size.height)
+#define SCREEN_MAX_LENGTH (MAX(SCREEN_WIDTH, SCREEN_HEIGHT))
+#define SCREEN_MIN_LENGTH (MIN(SCREEN_WIDTH, SCREEN_HEIGHT))
+#define IS_IPHONE (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+#define IS_IPHONE_6P (IS_IPHONE && SCREEN_WIDTH == 414.0)
+#define IS_IPHONE6 (IS_IPHONE && SCREEN_WIDTH == 375.0)
+#define IS_IPHONE_SMALL (IS_IPHONE && SCREEN_WIDTH == 320.0)
+
+
+#define hexColor(str) [UIColor hexStringToColor:str]
+#define FontSize(s) [PublicUtils fontJudgeSize:s]
+
+#endif /* PrefixHeader_pch */

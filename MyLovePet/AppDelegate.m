@@ -7,6 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "HomeViewController.h"
+#import "ShoppingViewController.h"
+#import "MessageViewController.h"
+#import "PersonalViewController.h"
+#import "PetTabBarViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +22,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [self configNavigationTabbar];
     return YES;
 }
 
@@ -46,6 +52,28 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+#pragma mark - 设置navigation & tabbar
+- (void)configNavigationTabbar{
+    UINavigationController *homeNav = [[UINavigationController alloc] initWithRootViewController:[HomeViewController new]];
+    
+    UINavigationController *shopNav = [[UINavigationController alloc] initWithRootViewController:[ShoppingViewController new]];
+    
+    UINavigationController *messageNav = [[UINavigationController alloc] initWithRootViewController:[MessageViewController new]];
+    
+    UINavigationController *personalNav = [[UINavigationController alloc] initWithRootViewController:[PersonalViewController new]];
+    //占位用的
+    UINavigationController *homeNav1 = [[UINavigationController alloc] initWithRootViewController:[HomeViewController new]];
+    
+    PetTabBarViewController *tabBarVC = [[PetTabBarViewController alloc] init];
+    tabBarVC.viewControllers = @[homeNav,shopNav,homeNav1,messageNav,personalNav];
+    tabBarVC.selectedIndex = 0;
+    self.window.rootViewController = tabBarVC;
+}
+
+
+
+
+
 
 
 @end
